@@ -9,6 +9,8 @@
       
   
        <header>
+     <!-- encabezado  -->
+
         <nav id="barraNavegacion"  class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
               <img src="imagenes/logo principal.png" width="250px" height="150px"  alt="">
@@ -18,40 +20,212 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#">Inicio  </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Arma tu pc </a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
+                      Productos
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Perifericos </a></li>
+                      <li><a class="dropdown-item" href="#">Componentes pc </a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
+                      <li><a class="dropdown-item" href="#">Juegos </a></li>
+                      <li><a class="dropdown-item" href="#">Sillas gamers </a></li>
+                      </ul>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto </a>
+                      </li>
+                   
+                  
                 </ul>
                 <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <input class="form-control me-2" type="buscar" placeholder="buscar" aria-label="buscar">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
               </div>
             </div>
           </nav>
 
       </header>
-<body>
+<body class="cuerpo">
+    <!-- imagenes principales  -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagenes/fondopcgamer.jpg" width="100px" height="700px" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/inico2.png" width="100px" height="700px"  class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/sillasfondo.png" width="100px" height="700px" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <hr>
     
+      <!-- seccion productos  -->
+      <h1 class="titulo1">Productos destacados </h1>
+      
+     <section id="seccionProductos">
+      <div class="card" style="width: 18rem; bg-dark">
+        <img src="imagenes/teclado1.png"   class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> $5000</h5>
+          <p class="card-text">Teclado gamer gama media de marca Asus</p>
+          
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes/ram 16gb.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> $8700</h5>
+          <p class="card-text">Memoria ram de 16gb de alta calidad .</p>
+          
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes/monitor1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> $26000</h5>
+          <p class="card-text">Monitor HD 1920x1080 de 75hrz.</p>
+          
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes/silla gamer.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> $36000</h5>
+          <p class="card-text">Silla gamer de alta calidad con la mejor comodidad.</p>
+          
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes/mouse logitech.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> $7600</h5>
+          <p class="card-text">Mouse logitech gama alta .</p>
+          
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes/gabinete.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> $12000</h5>
+          <p class="card-text">Gabinete para pc gamer .</p>
+          
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes/i5.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> $56000</h5>
+          <p class="card-text">Intel i5 7300 8 nucleos.</p>
+          
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes/God-of-War-.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> $8000</h5>
+          <p class="card-text">God-of-War para ps4 caja sellado.</p>
+          
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes/ssd 500g.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> $13000</h5>
+          <p class="card-text">SSD de 500g  .</p>
+          
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes/intel-core-i7.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> $67000</h5>
+          <p class="card-text">intel i7 8400 16 nucleos  .</p>
+          
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes/teclado3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> $3400</h5>
+          <p class="card-text">Teclado gama media-baja .</p>
+          
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="imagenes/the las of us.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> $7500</h5>
+          <p class="card-text">The las of us para ps4 nuevo sellado .</p>
+          
+        </div>
+      </div>
+    
+          
+        
+    </section> 
    
    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <hr>
+ 
+
+    <footer >
+        <h2 class="titulo2">Seguinos en :</h2>
+        <section class="footer">
+       
+        <img src="imagenes/insta-logo.png" height="60px"  alt="">
+        <img src="imagenes/facebook--v1.png" height="60px" alt="">
+        <img src="imagenes/twiteer.png" height="60px"  alt="">
+        <img src="imagenes/codigoqr.png" height="60px" alt="">
+      
+    
+    
+        2021@ desarrollado por uli 
+    </section>  
+    </footer>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>  
 </body>
 

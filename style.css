@@ -10,3 +10,34 @@
              background-color: black;
 
 }
+.cuerpo{
+      background-color: black;
+
+
+}
+.titulo1{
+        color: black;
+        background-color: rgb(19, 78, 145);
+        margin: 2rem auto;
+        text-align: center;
+        padding: 10px 5px 10px 5px;
+
+}
+#seccionProductos{
+            background-color: black;
+            display: flex;
+            flex-wrap: wrap;
+
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px ;
+   background-color: rgb(47, 48, 49);
+   padding: 15px 10px 15px 10px;
+}
+
+.titulo2{
+    background-color: rgb(47, 48, 49);
+
+}
